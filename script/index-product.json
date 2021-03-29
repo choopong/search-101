@@ -1,0 +1,32 @@
+PUT /product/_doc/1
+{
+  "id": 1,
+  "product_name": "รองเท้า Nike Alphafly NEXT%",
+  "is_active": 1,
+  "is_display": 1,
+  "price": 8990,
+  "discounted_price": null,
+  "product_category_id": 1
+}
+
+PUT /product/_doc/2
+{
+  "id": 1,
+  "product_name": "รองเท้า Adidas Adizero Adios Pro",
+  "is_active": 0,
+  "is_display": 1,
+  "price": 6000,
+  "discounted_price": 3000,
+  "product_category_id": 1
+}
+
+PUT /product/_doc/3
+{
+  "id": 1,
+  "product_name": "HOKA Carbon X 2 รองเท้าวิ่งผู้ชาย",
+  "is_active": 1,
+  "is_display": 0,
+  "price": 5990,
+  "discounted_price": null,
+  "product_category_id": 2
+}
