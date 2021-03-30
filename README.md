@@ -21,6 +21,7 @@ $ open http://localhost:5601/
 - indexing
 - querying
 - filtering
+- upsert
 - matching
 - analyzer
     - filter

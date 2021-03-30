@@ -1,3 +1,5 @@
+GET /product/_doc/1
+
 GET /product/_search
 {
   "query": {
@@ -143,6 +145,24 @@ GET /product/_search
         "id": "sort_by_price"
       },
       "order": "asc"
+    }
+  }
+}
+
+GET /product/_search
+{
+  "query": {
+    "bool": {
+      "must": {
+        "match_all": {}
+      },
+      "filter": {
+        "range": {
+          "qty": {
+            "gte": 1
+          }
+        }
+      }
     }
   }
 }
