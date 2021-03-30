@@ -37,7 +37,7 @@ PUT /_template/product?include_type_name=true
   "settings": {
     "number_of_shards": "1",
     "auto_expand_replicas" : "0-all",
-    "max_result_window": "5000",    
+    "max_result_window": "5000"
   }
 }
 

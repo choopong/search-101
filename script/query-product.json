@@ -129,7 +129,7 @@ GET /product/_search
   "query": {
     "match_all": {}
   },
-  "from": 1,
+  "from": 0,
   "size": 2
 }
 

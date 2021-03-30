@@ -5,7 +5,7 @@
 
 ## how to run
 ```
-$ doccker-compose up
+$ docker-compose up
 $ open http://localhost:5601/
 ```
 
